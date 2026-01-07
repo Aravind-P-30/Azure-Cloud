@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="home-background d-flex flex-column justify-content-center">
+            <div class="home-container">
+                <center><img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?w=740&t=st=1662734647~exp=1662735247~hmac=3714f06fc0eed1b85cc0917b33dbd9b37e9cf2a2dc16af71c0b30b473a5e70bd" alt="photo" class="img"></center>
+                <h1 class="home-text">Aravind P</h1>
+                <p class="home-text">An Emerging Full Stack Developer</p>
+                <h5>Hi,</h5>
+                <p>&nbsp; &nbsp;This is Aravind from Hosur,TamilNadu.I have completed my Bachelor's defree in Medical
+                    Electronics(2021 Passout) and I have worked as a Biomedical Service Engineer for few months.
+                    And then felt bad about my future and career so,I have decided to step into IT Sector as Full Stack Developer.And Enrolled in
+                    NxtWave CCBP 4.0 Program to Learn Full Stack.</p>
+                <center><button class="home-button home-text" onclick="display('sectionsecond')">Let's Get Started</button></center>
+                <p class="home-text home-last">Want to know More about Me!!!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionsecond">
+        <div class="second-page-top-background">
+            <h1 class="second-page-title">Thanks for showing interest to know more about me</h1>
+        </div>
+        <div class="second-page-background">
+
+
+
+            <div class="second-page-container d-flex flex-row" onclick="display('sectioneducation')">
+                <img src="https://img.freepik.com/free-vector/modern-education-concept-tablet-computer_3446-305.jpg?w=740&t=st=1663048980~exp=1663049580~hmac=4631cdd5449ff027d53dc3a7dbae72b447fee17e79faf16924571e378d97102d" class="second-page-image" />
+                <div class="second-page-content">
+                    <h1 class="second-page-heading">Education</h1>
+                    <p>Here you can know about my Education and Qualification.</p>
+                </div>
+            </div>
+
+            <div class="second-page-container d-flex flex-row" onclick="display('sectionexperience')">
+                <img src="https://img.freepik.com/free-vector/businessman-entrepreneur-working-office-desk_3446-678.jpg?w=740&t=st=1663050052~exp=1663050652~hmac=e0943859be3cfdbafe28739ed038450eb18d4f193bd8cb46acef3f0deec4a6e6" class="second-page-image" />
+                <div class="second-page-content">
+                    <h1 class="second-page-heading">Experience</h1>
+                    <p>Here you can know about my working experience.</p>
+                </div>
+            </div>
+
+            <div class="second-page-container d-flex flex-row" onclick="display('sectionadditional')">
+                <img src="https://img.freepik.com/free-vector/businessman-morning-day-schedule-notebook_3446-603.jpg?w=740&t=st=1663050381~exp=1663050981~hmac=b581d8fffa4772801d64d47145b9a749a0980c0ac216755b01f013706e68ab7c" class="second-page-image" />
+                <div class="second-page-content">
+                    <h1 class="second-page-heading">Additional Certified Corses</h1>
+                    <p>Here you can know about my additional certfied corses which I have learnt.</p>
+                </div>
+            </div>
+
+            <div class="second-page-container d-flex flex-row" onclick="display('sectionprofile')">
+                <img src="https://img.freepik.com/free-photo/fun-3d-cartoon-teenage-boy_183364-81184.jpg?w=740&t=st=1663403189~exp=1663403789~hmac=339e0ea5c253fc12a56fd11effb39a1820532ccf75fdcc8a04c688553c992ce5" class="second-page-image" />
+                <div class="second-page-content">
+                    <h1 class="second-page-heading">My Profile</h1>
+                    <p>Here you can know all details about me.</p>
+                </div>
+            </div>
+
+            <p class="contact"><mark>Contact:</mark> <br>
+                Mobile: 9600873337<br>
+                Mail: arvind400685@gmail.com</p>
+            <div class="second-button"><button class="btn btn-primary" onclick="display('sectionhome')">Back</button></div>
+            <a href="https://www.linkedin.com/in/aravind3004/" target="_blank">
+                <div class="second-button"><button class="btn btn-primary">LinkedIn</button></div>
+            </a>
+
+        </div>
+    </div>
+
+    <div id="sectioneducation">
+        <div class="education-top-background">
+            <h1 class="education-title">#Education</h1>
+        </div>
+        <h1 class="education-heading">SSLC(10th)</h1>
+        <p class="education-para">Sri Bharathi Vidthyalaya Matriculation School <br>
+            2015<br>
+            96.6%</p>
+        <hr color="grey">
+        <h1 class="education-heading">HSE(12th)</h1>
+        <p class="education-para">Sapthagiri Matric Hr.Sec School <br>
+            2017<br>PCMB(Physics,Chemistry,Maths,Biology) Group<br>
+            93%</p>
+        <hr color="grey">
+        <h1 class="education-heading">B.E.Medical Electronics Engineering</h1>
+        <p class="education-para">Sengunthar College of Engineering <br>
+            Anna University<br>2021<br>
+            8.10CGPA</p>
+        <hr color="grey">
+
+        <div class="second-button"><button class="btn btn-primary" onclick="display('sectionsecond')">Back</button></div>
+    </div>
+
+
+    <div id="sectionexperience">
+        <div class="education-top-background">
+            <h1 class="education-title">#Experience</h1>
+        </div>
+        <p class="education-para experience"> &nbsp &nbsp <mark>I'm a Freshers to the IT Field, but have Skills.I'm Interested to start my career as a Front End or Full Stack Developer.</mark><br>
+            <br>I have few months of Experience in Non-IT Field as mentioned Below.
+        </p>
+        <hr color="grey">
+        <h1 class="education-heading">Service Engineer(intern)</h1>
+        <p class="education-para">Alif Medical Devices Pvt Ltd <br>
+            Hyderabad <br>Nov 2020 - April 2021</p>
+        <h3 class="list-heading">Roles and Responsibilities:</h3>
+        <ol>
+            <li class="list">Installation of New Medical Devices in the Hospitals.</li>
+            <li class="list">Service for those devices when Required.</li>
+        </ol>
+        <hr color="grey">
+
+        <h1 class="education-heading">Biomedical Service Engineer</h1>
+        <p class="education-para">Nightingales Home Health Services<br>
+            Hyderabad <br>Sep 2021 - Mar 2022</p>
+        <h3 class="list-heading">Roles and Responsibilities:</h3>
+        <ol>
+            <li class="list">Installation of Home Care Medical Devices in the Customer Place for Rental Purpose.</li>
+            <li class="list">Service for those devices when Required.</li>
+            <li class="list">Inventory Management</li>
+        </ol>
+        <hr color="grey">
+
+        <div class="second-button"><button class="btn btn-primary" onclick="display('sectionsecond')">Back</button></div>
+    </div>
+
+    <div id="sectionprofile">
+        <div class="education-top-background">
+            <h1 class="education-title">#Personal Details</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <ol class="col-6 list-style">
+                    <li class="education-para">Name</li>
+                    <li class="education-para">Father Name</li>
+                    <li class="education-para">Gender</li>
+                    <li class="education-para">Date of Birth </li>
+                    <li class="education-para">Highest Qualification </li><br>
+                    <li class="education-para">Address </li>
+
+
+                </ol>
+
+                <ol class="col-6 list-style">
+                    <li class="education-para">: Aravind P</li>
+                    <li class="education-para">: Padmanabhan B R</li>
+                    <li class="education-para">: Male</li>
+                    <li class="education-para">: 30th April 2000 </li>
+                    <li class="education-para">: B.E.Medical Electronics Engineering </li>
+                    <li class="education-para">: 3/812,Alasanatham Road,Venkatesh Nagar,Hosur 635109,Krishnagiri Dt,TamilNadu </li>
+
+                </ol>
+            </div>
+        </div>
+        <div class="second-button"><button class="btn btn-primary" onclick="display('sectionsecond')">Back</button></div>
+    </div>
+    <div id="sectionadditional">
+        <div class="education-top-background">
+            <h1 class="education-title">#Additional Certified Courses</h1>
+        </div>
+        <div class="second-button"><button class="btn btn-primary" onclick="display('sectionsecond')">Back</button></div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
